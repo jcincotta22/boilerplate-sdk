@@ -1,5 +1,5 @@
 {
-  "name": "sdk-boilerplate",
+  "name": "boilerplate-sdk",
   "version": "0.0.1",
   "description": "Basic typescrip boilderplate sdk",
   "main": "build/index.js",
@@ -8,11 +8,12 @@
     "node": ">=16.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bidventures/sdk-boilerplate.git"
+    "url": "git://github.com/jcincotta22/boilerplate-sdk.git"
   },
   "scripts": {
     "build": "tsc",
@@ -41,9 +42,9 @@
     "winston": "3.4.0"
   },
   "bugs": {
-    "url": "https://github.com/bidventures/sdk-boilerplate/issues"
+    "url": "https://github.com/jcincotta22/boilerplate-sdk/issues"
   },
-  "homepage": "https://github.com/bidventures/sdk-boilerplate#readme",
+  "homepage": "https://github.com/jcincotta22/boilerplate-sdk#readme",
   "author": "Jeff Cincotta",
   "license": "ISC"
 }
