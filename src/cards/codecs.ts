@@ -1,8 +1,8 @@
 import * as t from 'io-ts';
 
 export const Deck = t.type({
-  deck_id: t.number,
-  shuffled: t.number,
+  deck_id: t.string,
+  shuffled: t.boolean,
   remaining: t.number
 });
 

@@ -15,13 +15,12 @@ export type SDKOptions = {
  * https://deckofcardsapi.com/
  */
 export class DeckOfCardsSDK {
-  key: string;
+  key: string; // dont need this for this api but would for other apis that require a an auth key
   cache: FetchCache;
   logger?: Logger;
 
   constructor(key: string, options: SDKOptions = {}) {
-    this.key = key;
-    //default to trial access_level if production is not specified
+    this.key = key; // auth key if needed
     this.logger = options.logger;
     const { cache = new FetchCache({ logger: options.logger }) } = options;
     this.cache = cache;
