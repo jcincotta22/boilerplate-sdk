@@ -1,4 +1,4 @@
-# sdk-boilerplate
+# boilerplate-sdk
 
 Deck of cards Software Development Kit wrapper
 
