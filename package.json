@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-sdk",
+  "name": "@jcincotta-packages/boilerplate-sdk",
   "version": "0.0.1",
   "description": "Basic typescrip boilderplate sdk",
   "main": "build/index.js",
